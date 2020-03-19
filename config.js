@@ -1,8 +1,8 @@
 const config = {};
 
-config.host = process.env.HOST || "https://wealth-mgmt-fa-page.documents.azure.com:443/";
+config.host = process.env.HOST || "URI";
 config.authKey =
-  process.env.AUTH_KEY || "zxZFHVpFAAaz2c6gVwTTmPRQZx2T1op8LkVf37cuEVovv5ZsUHYVIO3VqSmMzi9CfQav1LpIllokukQWLMmc5Q==";
+  process.env.AUTH_KEY || "Keys";
 config.databaseId = "Client";
 config.containerId = "Items";
 
